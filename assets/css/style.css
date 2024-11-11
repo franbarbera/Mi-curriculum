@@ -1,0 +1,47 @@
+.foto_{
+    height: 100%;
+    width: 23rem;
+}
+.titulo {
+    font-family: cursive;
+    font-size: 14px;
+    color: black;
+    
+}
+
+#resumen{
+    color: black;
+}
+p {
+    color: black;
+}
+.fondo{
+    background-color: black;
+    color: white;
+}
+#resumen {
+    display: flex;
+    justify-content: center;
+}
+p {
+    display: flex;
+    justify-content: center;
+}
+#formacion {
+    color: black;
+}
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+@media only screen and (max-width: 1024px) {
+    main {
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+@media only screen and (max-width: 375px) {
+    .foto_{
+        width: 100%;
+    }
+}
