@@ -1,19 +1,36 @@
 .desafios {
-    width: 80%;
-    margin: auto;
+  width: 80%;
+  margin: auto;
 }
 .desafios td {
-    width: 50%;
-    padding: 2em;
+  width: 50%;
+  padding: 2em;
 }
 .desafios img {
-    width: 100%;
-    border: 3px solid white;
+  width: 100%;
+  border: 3px solid white;
 }
 .fondo {
-    background-color: black;
-    color: white;
+  background-color: black;
+  color: white;
 }
 #derechos {
-    color: black;
+  color: black;
+}
+@media (max-width: 768px) {
+  .desafios {
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .desafios img {
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .desafios td {
+    width: 100%;
+    display: block;
+    padding: 1em;
+  }
 }
