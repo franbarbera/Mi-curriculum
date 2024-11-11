@@ -1,0 +1,41 @@
+.body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.header h1 {
+  margin: 0px;
+  font-weight: 400;
+}
+.header {
+  background-image: url("../img/ramfondo.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 10em;
+  padding-top: 2em;
+  padding-left: 2em;
+  font-size: 2em;
+}
+
+.footer {
+  height: 3em;
+  line-height: 3em;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  text-align: center;
+  font-weight: 900;
+}
+.fondo {
+  background-color: rgb(255, 255, 255);
+}
+.products {
+  width: 80%;
+  margin: auto;
+}
+.products td {
+  width: 50%;
+  padding: 2em;
+}
+.products img {
+  width: 100%;
+  border: 3px solid black;
+}

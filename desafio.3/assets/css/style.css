@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
+* {
+  color: #ffffff;
+}
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: black;
+}
+
+main {
+  width: 1280px;
+  margin: 0 auto;
+  height: 100px;
+}
+
+header {
+  top: 0px;
+  left: 0px;
+  display: flex;
+  justify-content: center;
+  height: 73px;
+}
+
+h1 {
+  color: white;
+  top: 7px;
+  height: 59px;
+  font-family: "Raleway", sans-serif;
+  font-size: 50px;
+  font-weight: 500px;
+  font-style: normal;
+  font-variant: normal;
+}
+
+figure {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  height: 727px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 1280px;
+  height: 348px;
+  background: #000000 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+section .text-content {
+  width: 475px;
+  text-align: left;
+  font: normal normal 300 16px/19px Raleway;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+section img {
+  width: 399px;
+  height: 237px;
+}
+.caracteristicas {
+  width: 1280px;
+  height: 348px;
+  background: #1e1a13;
+  opacity: 0.98;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+  font-family: "Raleway", sans-serif;
+  font-size: 40px;
+  font-weight: 47px;
+  font-style: normal;
+  font-variant: normal;
+  color: #ffffff;
+}
+
+.simbolo-texto-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+.caracteristica {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font: normal normal 300 24px/29px Raleway;
+  color: #ffffff;
+}
+
+.caracteristica i {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.caracteristica p {
+  margin: 0;
+}
+.galeria {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 1280px;
+  height: 348px;
+}
+.galeria img {
+  width: 316px;
+  height: 202px;
+}
+.pie {
+  display: flex;
+  justify-content: center;
+  width: 1280px;
+  height: 102px;
+  background: #1e1a13;
+  opacity: 0.94;
+}
+.pie p {
+  text-align: center;
+  width: 682px;
+  height: 24px;
+  font: normal normal 300 20px/24px Raleway;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+.pie a {
+  color: white;
+}
