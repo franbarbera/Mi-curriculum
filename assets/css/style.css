@@ -5,16 +5,10 @@
 .titulo {
     font-family: cursive;
     font-size: 14px;
-    color: black;
     
 }
 
-#resumen{
-    color: black;
-}
-p {
-    color: black;
-}
+
 .fondo{
     background-color: black;
     color: white;
@@ -26,9 +20,6 @@ p {
 p {
     display: flex;
     justify-content: center;
-}
-#formacion {
-    color: black;
 }
 main {
     width: 80%;
