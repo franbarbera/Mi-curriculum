@@ -1,1 +1,1 @@
-Trabaje con Felipe Yevilao, Jose Moreno y Marco
+Trabaje con Felipe Yevilao, Jose Moreno y Marco Ayala
